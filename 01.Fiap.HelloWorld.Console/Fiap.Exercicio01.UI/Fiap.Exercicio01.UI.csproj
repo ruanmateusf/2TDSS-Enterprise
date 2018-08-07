@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{33DE4505-2A6C-4ECA-91ED-4338C3DD8986}</ProjectGuid>
+    <ProjectGuid>{1AD20393-EA12-4C36-80D0-0411A7DE7F91}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_01.Fiap.HelloWorld.Console.UI</RootNamespace>
-    <AssemblyName>01.Fiap.HelloWorld.Console.UI</AssemblyName>
+    <RootNamespace>Fiap.Exercicio01.UI</RootNamespace>
+    <AssemblyName>Fiap.Exercicio01.UI</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,9 +42,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Model\Carro.cs" />
-    <Compile Include="Model\Lancha.cs" />
-    <Compile Include="Model\Veiculo.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

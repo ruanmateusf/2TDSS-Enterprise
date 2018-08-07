@@ -12,18 +12,20 @@ namespace _01.Fiap.HelloWorld.Console.UI
         static void Main(string[] args)
         {
             //Instanciar um carro
-            Carro carro = new Carro();
+            Carro carro = new Carro(2010,2.0);
             carro.Ano = 2010; //Set
             carro.ArCondicionado = false; //Set
 
             System.Console.WriteLine(carro.Ano); //Get
 
             //Instanciar uma lancha
-            var lancha = new Lancha()
+            var lancha = new Lancha(2019,50)
             {
                 BoiaSalvaVida = true,
-                Ano = 1999
+                Ano = 1999                
             };
+
+            
         }
     }
 }
